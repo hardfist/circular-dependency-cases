@@ -1,0 +1,22 @@
+{
+  "name": "circular-dependency-cases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "pnpm run build:esbuild && pnpm run build:rollup && pnpm run build:webpack",
+    "build:esbuild": "esbuild src/index.mjs --target=es6 --bundle --outfile=dist/esbuild.js",
+    "build:rollup": "rollup src/index.mjs -o=dist/rollup.js",
+    "build:webpack": "webpack ",
+    "start": "node src/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "5.89.0",
+    "webpack-cli": "5.1.4",
+    "rollup": "4.9.2",
+    "esbuild": "0.19.11"
+  }
+}
