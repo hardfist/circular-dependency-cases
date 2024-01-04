@@ -7,7 +7,7 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   b: () => (/* binding */ b)
+/* harmony export */   "b": () => (/* binding */ b)
 /* harmony export */ });
 /* harmony import */ var _a_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 // b -> a -> b
@@ -30,7 +30,7 @@ const b = (() => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   a: () => (/* binding */ a)
+/* harmony export */   "a": () => (/* binding */ a)
 /* harmony export */ });
 /* harmony import */ var _b_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 // a -> b -> a
