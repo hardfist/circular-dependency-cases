@@ -8,7 +8,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   willTDZ: () => (/* binding */ willTDZ)
+/* harmony export */   "willTDZ": () => (/* binding */ willTDZ)
 /* harmony export */ });
 /* harmony import */ var _a_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
 // b -> a -> b
@@ -38,7 +38,7 @@ function willTDZ() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   willTDZ: () => (/* binding */ willTDZ)
+/* harmony export */   "willTDZ": () => (/* binding */ willTDZ)
 /* harmony export */ });
 /* harmony import */ var _b_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 // a -> b -> a
