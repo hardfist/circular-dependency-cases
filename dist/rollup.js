@@ -1,5 +1,5 @@
-const b = a+1;
+function init(){
+  console.log('init');
+}
 
-const a = b+1;
-
-console.log({a,b});
+init();

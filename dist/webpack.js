@@ -7,24 +7,11 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "a": () => (/* binding */ a)
+/* harmony export */   init: () => (/* binding */ init)
 /* harmony export */ });
-/* harmony import */ var _b_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
-
-const a = _b_mjs__WEBPACK_IMPORTED_MODULE_0__.b+1;
-
-/***/ }),
-/* 2 */
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "b": () => (/* binding */ b)
-/* harmony export */ });
-/* harmony import */ var _a_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-
-
-const b = _a_mjs__WEBPACK_IMPORTED_MODULE_0__.a+1;
+function init(){
+  console.log('init');
+}
 
 /***/ })
 /******/ 	]);
@@ -87,11 +74,9 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _a_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var _b_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
+/* harmony import */ var _libs_index_mjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
-
-console.log({a: _a_mjs__WEBPACK_IMPORTED_MODULE_0__.a,b: _b_mjs__WEBPACK_IMPORTED_MODULE_1__.b})
+(0,_libs_index_mjs__WEBPACK_IMPORTED_MODULE_0__.init)();
 })();
 
 /******/ })()

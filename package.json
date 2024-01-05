@@ -8,7 +8,10 @@
     "build:esbuild": "esbuild src/index.mjs --target=es6 --bundle --outfile=dist/esbuild.js",
     "build:rollup": "rollup src/index.mjs -o=dist/rollup.js",
     "build:webpack": "webpack ",
-    "start": "node src/index.mjs"
+    "start:node": "node src/index.mjs",
+    "start:webpack": "node dist/webpack.js",
+    "start:rollup": "node dist/rollup.js",
+    "start:esbuild": "node dist/esbuild.js"
   },
   "keywords": [],
   "author": "",
